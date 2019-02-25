@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/TweenMax-latest-beta.js?v=1" type="text/javascript"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ModifiersPlugin-latest-beta.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="words"></div>
+    <div class="menu"></div>
+    <div class="gradient-animation"></div>
+    <div class="hero-section">
+        <h1><!--<img src="assets/images/logo.svg" alt="DEWYNTERS" width="100%">-->DEWYNTERS</h1>
+        <h6>EXPERIENCE IS EVERYTHING</h6>
+        <p>Want to chat? Say hello.</p>
+        <button onclick="discoverMore()">Discover more</button>
+        <div class="footer">
+          <div class="company-part">
+            <div class="logos">
+              <img src="assets/images/dwg.svg" alt="dwg">
+              <img src="assets/images/dwn.svg" alt="dwn">
+              <img src="assets/images/spotco.svg" alt="spotco">
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+          </div>
+          <div class="links">
+            <div>
+              <p>+44 020 7321 0488</p>
+              <p>Wellington House</p>
+              <p>125 Strand</p>
+              <p>London WC2R 0AP</p>
+            </div>
+            <div>
+              <a href="#">Privacy & Cookies</a>
+              <a href="#">Terms & Conditions</a>
+              <a href="#">Contact</a>
+              <a href="#">Careers</a>
+            </div>
+          </div>
+          <div class="social">
+            <img src="assets/images/social.svg" alt="social">
+          </div>
+        </div>
+    </div>
+    <div class="overlay">
+        <div class="content">
+            <h3>Life is made of <span>experiences.</span></h3>
+            <p>From those we share together at theatres, exhibitions, music, sport and live events to those we enjoy online wherever we are - every <span>experience</span> matters.</p>
+            <p>We deliver brands that engage, excite and entertain, designed by a global network of experts with an unrivalled passion, unlimited creativity and simply unparalleled <span>experience</span>.</p>
+            <button class="close-btn" onclick="closeOverlay()">&times;</button>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+          <filter id="blur">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="15,15"></feGaussianBlur>
+          </filter>
+        </defs>
+      </svg>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
